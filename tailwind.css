@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+#navbar {
+  @apply bg-gray-800 p-4;
+}
+
+#bookList {
+  @apply grid grid-cols-3 gap-4 p-4;
+}
+
+.book-card {
+  @apply bg-gray-700 p-4 rounded shadow-lg;
+}
+
+#footer {
+  @apply bg-gray-800 p-4 text-center;
+}

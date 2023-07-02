@@ -1,0 +1,36 @@
+/* styles.css */
+
+body {
+  background-color: #1a202c;
+  color: #a0aec0;
+}
+
+#navbar {
+  background-color: #2d3748;
+  padding: 20px;
+}
+
+#bookList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.book-card {
+  background-color: #2d3748;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#footer {
+  background-color: #2d3748;
+  padding: 20px;
+  text-align: center;
+}
